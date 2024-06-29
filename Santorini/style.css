@@ -1,0 +1,31 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("Beach.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+
+ 
+}
+.background{
+  background: rgba(0, 0, 0, 0.368);
+}
+div {
+  background-image: url("greece.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: myFirstFont;
+  
+}
+h1 {
+  font-size: 100px;
+  color: rgb(255, 191, 100)
+}
